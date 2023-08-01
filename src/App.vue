@@ -17,7 +17,7 @@
         :header-cell-style="{textAlign:'center'}"
         style="width: 100%">
       <el-table-column
-          prop="name"
+          prop="name" show-overflow-tooltip
           label="基金名称">
       </el-table-column>
       <el-table-column
@@ -46,7 +46,7 @@ export default {
     return {
       founds: [],
       state: '',
-      fcodes: ['012769','002708','000362','012323'],
+      fcodes: ['012769','002708','000362','012323','001092','010364','017811','161628'],
       gz: []
     }
   },
